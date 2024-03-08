@@ -40,17 +40,16 @@ def main():
     avg_glucose_level = st.text_input('Average glucose level')
     bmi = st.text_input('BMI')
     smoking_status = st.selectbox('Are you a smoker? ',('Formerly smoked', 'Never smoked', 'I Smoke'))
-
-def gender(gender):
+    
+    def gender(gender):
         if gender=='Male':
             gender=0
         else:
             gender=1
             
         return gender
-
-
-def hypertension(hypertension):
+        
+    def hypertension(hypertension):
         if hypertension=='Yes':
             hypertension=1
         else:
@@ -58,23 +57,23 @@ def hypertension(hypertension):
             
         return hypertension
 
-def heart_disease(heart_disease):
+    def heart_disease(heart_disease):
         if heart_disease=='No':
             heart_disease=0
         else:
             heart_disease=1
             
         return heart_disease
-
-def ever_married(ever_married):
+        
+    def ever_married(ever_married):
         if ever_married=='Yes':
             ever_married=0
         else:
             ever_married=1
             
         return ever_married
-
-def work_type(work_type):
+    
+    def work_type(work_type):
         if work_type=='Private':
             work_type=0
         elif work_type=='Self-employed':
@@ -87,16 +86,16 @@ def work_type(work_type):
             work_type=4
             
         return work_type
-
-def residence_type(residence_type):
+        
+    def residence_type(residence_type):
         if residence_type=='Urban':
             residence_type=0
         else:
             residence_type=1
             
         return residence_type
-
-def smoking_status(smoking_status):
+        
+    def smoking_status(smoking_status):
         if smoking_status=='Formerly smoked':
             smoking_status=0
         elif smoking_status=='Never smoked':
@@ -105,19 +104,13 @@ def smoking_status(smoking_status):
             smoking_status=2 
         
         return smoking_status
-
-
-
-
-    # code for Prediction
-diagnosis = ''
+        
+    diagnosis = ''
     
     # creating a button for Prediction
-    
-if st.button('Predict!'):
-    diagnosis = diabetes_prediction([gender, age, hypertension, heart_disease, ever_married, work_type, residence_type, avg_glucose_level,bmi,smoking_status])
-        
-st.success(diagnosis)
+    if st.button('Predict!'):
+        diagnosis = diabetes_prediction([gender, age, hypertension, heart_disease, ever_married, work_type, residence_type, avg_glucose_level,bmi,smoking_status])
+    st.success(diagnosis)
     
     
     
