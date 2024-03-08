@@ -21,7 +21,21 @@ def diabetes_prediction(input_data):
 
 def main():
     # giving a title
-    st.image('https://raw.githubusercontent.com/Youcef-bel/StrokePredicitionModel/main/LOGO.jpg',width=300, height=150,use_column_width=True)
+    st.markdown(
+        """
+        <style>
+            .center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 200px; /* Adjust the height as needed */
+            }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown('<div class="center"><img src="https://tse2.mm.bing.net/th/id/OIG4.gHRNynXqDtnxOHJr8Nlj?pid=ImgGn" alt="Logo" width=150 height=150></div>', unsafe_allow_html=True)
     st.title('Stroke Prediction Web App')
 
     # getting the input data from the user
@@ -56,7 +70,7 @@ def main():
 
 
 
-    
+    st.markdown("---")
     st.markdown("Developed by Youcef Belmokhtar")
     st.markdown("GitHub:https://github.com/Youcef-bel/")
 
