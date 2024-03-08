@@ -20,7 +20,8 @@ def diabetes_prediction(input_data):
     else:
       return 'The person is diabetic'
         
-    def main():
+    
+def main():
     
     
     # giving a title
