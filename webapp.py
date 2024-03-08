@@ -21,7 +21,7 @@ def diabetes_prediction(input_data):
 
 def main():
     # giving a title
-    st.image('https://raw.githubusercontent.com/Youcef-bel/StrokePredicitionModel/main/LOGO.jpg')
+    st.image('https://raw.githubusercontent.com/Youcef-bel/StrokePredicitionModel/main/LOGO.jpg',use_column_width=True)
     st.title('Stroke Prediction Web App')
 
     # getting the input data from the user
