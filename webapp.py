@@ -71,7 +71,7 @@ def main():
 
 
     st.markdown("---")
-    st.markdown("<h1 style='text-align: left; color: white;'>Introduction</h2>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: left; color: white;'>Introduction</h3>", unsafe_allow_html=True)
     st.write("Our Stroke Prediction Model is an advanced machine learning algorithm designed to assess an individual's likelihood of experiencing a stroke in the future. Stroke, a critical medical condition, requires early detection and preventive measures to minimize the associated health risks.")
     st.markdown("---")
     st.markdown("Developed by Youcef Belmokhtar")
