@@ -36,7 +36,7 @@ ef main():
     heart_disease = st.text_input('Do you have a heart disease')
     ever_married = st.text_input('Are you merried?')
     work_type = st.text_input('Work type')
-    Residence_type = st.text_input('Residence type')
+    residence_type = st.text_input('Residence type')
     avg_glucose_level = st.text_input('Average glucose level')
     bmi = st.text_input('BMI')
     smoking_status = st.text_input('Are you a smoker?')
@@ -47,7 +47,7 @@ ef main():
     # creating a button for Prediction
     
     if st.button('Diabetes Test Result'):
-        diagnosis = diabetes_prediction([gender, age, hypertension, heart_disease, ever_married, work_type, Residence_type, avg_glucose_level,bmi,smoking_status])
+        diagnosis = diabetes_prediction([gender, age, hypertension, heart_disease, ever_married, work_type, residence_type, avg_glucose_level,bmi,smoking_status])
         
         
     st.success(diagnosis)
