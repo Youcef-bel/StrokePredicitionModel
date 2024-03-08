@@ -39,8 +39,75 @@ def main():
     residence_type = st.selectbox('Residence type ',('Urban','Rural'))
     avg_glucose_level = st.text_input('Average glucose level')
     bmi = st.text_input('BMI')
-    smoking_status = st.selectbox('Are you a smoker? ',('Yes','No'))
-    
+    smoking_status = st.selectbox('Are you a smoker? ',('Formerly smoked', 'Never smoked', 'I Smoke'))
+
+    def gender(gender):
+        if gender=='Male':
+            gender=0
+        else:
+            gender=1
+            
+        return gender
+
+     def hypertension(hypertension):
+        if hypertension=='No':
+            hypertension=0
+        else:
+            hypertension=1
+            
+        return hypertension
+
+  def heart_disease(heart_disease):
+        if heart_disease=='No':
+            heart_disease=0
+        else:
+            heart_disease=1
+            
+        return heart_disease
+
+ def ever_married(ever_married):
+        if ever_married=='Yes':
+            ever_married=0
+        else:
+            ever_married=1
+            
+        return ever_married
+
+ def work_type(work_type):
+        if work_type=='Private':
+            work_type=0
+        elif work_type=='Self-employed':
+            work_type=1
+             elif work_type=='Governement job':
+            work_type=2
+      elif work_type=='Working with children':
+            work_type=3
+        else:
+            work_type=4
+            
+        return work_type
+
+  def residence_type(residence_type):
+        if residence_type=='Urban':
+            residence_type=0
+        else:
+            residence_type=1
+            
+        return residence_type
+
+def smoking_status(smoking_status):
+        if smoking_status=='Formerly smoked':
+            smoking_status=0
+        elif smoking_status=='Never smoked':
+            smoking_status=1
+        elif smoking_status=='I Smoke':
+            smoking_status=2 
+        
+        return smoking_status
+
+
+
+
     # code for Prediction
     diagnosis = ''
     
