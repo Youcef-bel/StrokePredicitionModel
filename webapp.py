@@ -71,6 +71,8 @@ def main():
 
 
     st.markdown("---")
+    st.title("Introduction")
+    st.write("Our Stroke Prediction Model is an advanced machine learning algorithm designed to assess an individual's likelihood of experiencing a stroke in the future. Stroke, a critical medical condition, requires early detection and preventive measures to minimize the associated health risks.")
     st.markdown("---")
     st.markdown("Developed by Youcef Belmokhtar")
     st.markdown("LinkedIn profile: https://www.linkedin.com/in/youcefbelmokhtar/")
