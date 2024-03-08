@@ -47,9 +47,8 @@ def main():
             gender=0
         else:
             gender=1
-
-       print(gender)
             
+        print(gender)
         return gender
         
     def hypertension(hypertension):
