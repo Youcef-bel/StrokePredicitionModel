@@ -1,6 +1,6 @@
 import numpy as np
 import pickle
-import steamlit as st
+import streamlit as st
 
 model = pickle.load(open('https://github.com/Youcef-bel/StrokePredicitionModel/blob/main/clf.sav', 'rb'))
 
