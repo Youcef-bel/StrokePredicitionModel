@@ -46,7 +46,7 @@ ef main():
     
     # creating a button for Prediction
     
-    if st.button('Diabetes Test Result'):
+    if st.button('Predict!'):
         diagnosis = diabetes_prediction([gender, age, hypertension, heart_disease, ever_married, work_type, residence_type, avg_glucose_level,bmi,smoking_status])
         
         
