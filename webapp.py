@@ -41,7 +41,7 @@ def main():
     bmi = st.text_input('BMI')
     smoking_status = st.selectbox('Are you a smoker? ',('Formerly smoked', 'Never smoked', 'I Smoke'))
 
-    def gender(gender):
+def gender(gender):
         if gender=='Male':
             gender=0
         else:
@@ -50,8 +50,7 @@ def main():
         return gender
 
 
- hypertension = st.selectbox('Do you have a hypertension ',('Yes','No'))
-     def hypertension(hypertension):
+def hypertension(hypertension):
         if hypertension=='Yes':
             hypertension=1
         else:
@@ -59,7 +58,7 @@ def main():
             
         return hypertension
 
-  def heart_disease(heart_disease):
+def heart_disease(heart_disease):
         if heart_disease=='No':
             heart_disease=0
         else:
@@ -67,7 +66,7 @@ def main():
             
         return heart_disease
 
- def ever_married(ever_married):
+def ever_married(ever_married):
         if ever_married=='Yes':
             ever_married=0
         else:
@@ -75,7 +74,7 @@ def main():
             
         return ever_married
 
- def work_type(work_type):
+def work_type(work_type):
         if work_type=='Private':
             work_type=0
         elif work_type=='Self-employed':
@@ -89,7 +88,7 @@ def main():
             
         return work_type
 
-  def residence_type(residence_type):
+def residence_type(residence_type):
         if residence_type=='Urban':
             residence_type=0
         else:
