@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-model = pickle.load(open('https://github.com/Youcef-bel/StrokePredicitionModel/blob/main/clf.sav', 'rb'))
+model = pickle.load(open('clf.sav', 'rb'))
 
 def diabetes_prediction(input_data):
     
