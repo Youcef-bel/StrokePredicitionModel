@@ -57,7 +57,7 @@ def main():
 
     
     st.markdown("Developed by Youcef Belmokhtar")
-    st.markdown("GitHub: [GitHub Profile](https://github.com/Youcef-bel/")
+    st.markdown("GitHub:https://github.com/Youcef-bel/")
 
 def convert_gender(gender):
     if gender == 'Male':
