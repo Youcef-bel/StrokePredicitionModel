@@ -102,3 +102,6 @@ def convert_smoking_status(smoking_status):
         return 1
     elif smoking_status == 'I Smoke':
         return 2
+
+if __name__ == '__main__':
+    main()
