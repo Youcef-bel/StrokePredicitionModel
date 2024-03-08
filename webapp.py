@@ -47,6 +47,8 @@ def main():
             gender=0
         else:
             gender=1
+
+        gender=gender
             
         return gender
         
@@ -55,7 +57,7 @@ def main():
             hypertension=1
         else:
             hypertension=0
-            
+        hypertension=hypertension    
         return hypertension
 
     def heart_disease(heart_disease):
@@ -63,7 +65,8 @@ def main():
             heart_disease=0
         else:
             heart_disease=1
-            
+
+        heart_disease=heart_disease
         return heart_disease
         
     def ever_married(ever_married):
@@ -71,7 +74,8 @@ def main():
             ever_married=0
         else:
             ever_married=1
-            
+
+        heart_disease=heart_disease
         return ever_married
     
     def work_type(work_type):
@@ -85,7 +89,8 @@ def main():
             work_type=3
         else:
             work_type=4
-            
+
+        work_type=work_type
         return work_type
         
     def residence_type(residence_type):
@@ -93,7 +98,8 @@ def main():
             residence_type=0
         else:
             residence_type=1
-            
+
+        residence_type=residence_type
         return residence_type
         
     def smoking_status(smoking_status):
@@ -103,6 +109,8 @@ def main():
             smoking_status=1
         elif smoking_status=='I Smoke':
             smoking_status=2 
+
+        smoking_status=smoking_status
         
         return smoking_status
         
