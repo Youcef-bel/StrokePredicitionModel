@@ -52,6 +52,10 @@ def main():
     if st.button('Predict!'):
         diagnosis = diabetes_prediction(input_data)
     st.success(diagnosis)
+
+
+
+    
     st.markdown("Developed by Youcef Belmokhtar")
     st.markdown("GitHub: [GitHub Profile](https://github.com/Youcef-bel/")
 
