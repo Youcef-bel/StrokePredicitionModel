@@ -35,7 +35,7 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.markdown('<div class="center"><img src="https://tse2.mm.bing.net/th/id/OIG4.gHRNynXqDtnxOHJr8Nlj?pid=ImgGn" alt="Logo" width=150 height=150></div>', unsafe_allow_html=True)
+    st.markdown('<div class="center"><img src="https://tse2.mm.bing.net/th/id/OIG4.gHRNynXqDtnxOHJr8Nlj?pid=ImgGn" alt="Logo" width=200 height=200></div>', unsafe_allow_html=True)
     st.title('Stroke Prediction Web App')
 
     # getting the input data from the user
@@ -71,8 +71,9 @@ def main():
 
 
     st.markdown("---")
+    st.markdown("---")
     st.markdown("Developed by Youcef Belmokhtar")
-    st.markdown("GitHub:https://github.com/Youcef-bel/")
+    st.markdown("LinkedIn profile: https://www.linkedin.com/in/youcefbelmokhtar/")
 
 def convert_gender(gender):
     if gender == 'Male':
