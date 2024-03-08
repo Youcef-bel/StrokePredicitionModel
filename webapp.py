@@ -49,6 +49,8 @@ def main():
             
         return gender
 
+
+ hypertension = st.selectbox('Do you have a hypertension ',('Yes','No'))
      def hypertension(hypertension):
         if hypertension=='Yes':
             hypertension=1
