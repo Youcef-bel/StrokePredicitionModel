@@ -30,16 +30,16 @@ def main():
     # getting the input data from the user
     
     
-    gender = st.text_input('Gender')
+    gender = st.selectbox('Gender',('Male','Female'))
     age = st.text_input('Age')
-    hypertension = st.text_input('Do you have a hypertension?')
-    heart_disease = st.text_input('Do you have a heart disease')
-    ever_married = st.text_input('Are you merried?')
-    work_type = st.text_input('Work type')
-    residence_type = st.text_input('Residence type')
+    hypertension = st.selectbox('Do you have a hypertension ',('Yes','No'))
+    heart_disease = st.selectbox('Do you have a Heart disease ',('Yes','No'))
+    ever_married = st.selectbox('Are you merried? ',('Yes','No'))
+    work_type = st.selectbox('Your work type?',('Private', 'Self-employed', 'Governement job', 'Working with children', 'Never worked'))
+    residence_type = st.selectbox('Residence type ',('Urban','Rural'))
     avg_glucose_level = st.text_input('Average glucose level')
     bmi = st.text_input('BMI')
-    smoking_status = st.text_input('Are you a smoker?')
+    smoking_status = st.selectbox('Are you a smoker? ',('Yes','No'))
     
     # code for Prediction
     diagnosis = ''
