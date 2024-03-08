@@ -104,7 +104,7 @@ def convert_smoking_status(smoking_status):
         return 2
 
 st.markdown("Developed by Youcef Belmokhtar")
-    st.markdown("GitHub: [GitHub Profile](https://github.com/Youcef-bel/")
+st.markdown("GitHub: [GitHub Profile](https://github.com/Youcef-bel/")
 
 if __name__ == '__main__':
     main()
