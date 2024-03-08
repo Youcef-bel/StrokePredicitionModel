@@ -50,10 +50,10 @@ def main():
         return gender
 
      def hypertension(hypertension):
-        if hypertension=='No':
-            hypertension=0
-        else:
+        if hypertension=='Yes':
             hypertension=1
+        else:
+            hypertension=0
             
         return hypertension
 
