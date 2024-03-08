@@ -2,7 +2,7 @@ import numpy as np
 import pickle 
 
 # loading the saved model
-model = pickle.load(open('clf.sav', 'rb'))
+model = pickle.load(open('https://github.com/Youcef-bel/StrokePredicitionModel/blob/main/clf.sav', 'rb'))
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
 
