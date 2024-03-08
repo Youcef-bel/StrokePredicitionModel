@@ -79,9 +79,9 @@ def work_type(work_type):
             work_type=0
         elif work_type=='Self-employed':
             work_type=1
-             elif work_type=='Governement job':
+        elif work_type=='Governement job':
             work_type=2
-      elif work_type=='Working with children':
+        elif work_type=='Working with children':
             work_type=3
         else:
             work_type=4
