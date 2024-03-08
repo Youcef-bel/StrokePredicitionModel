@@ -110,11 +110,11 @@ def smoking_status(smoking_status):
 
 
     # code for Prediction
-    diagnosis = ''
+diagnosis = ''
     
     # creating a button for Prediction
     
-    if st.button('Predict!'):
+if st.button('Predict!'):
         diagnosis = diabetes_prediction([gender, age, hypertension, heart_disease, ever_married, work_type, residence_type, avg_glucose_level,bmi,smoking_status])
         
         
